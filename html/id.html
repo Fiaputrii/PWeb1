@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+<!-- Atribut id menentukan id unik untuk elemen HTML. Nilai atribut id harus unik dalam dokumen HTML.
+Atribut id digunakan untuk menunjuk ke deklarasi gaya tertentu dalam style sheet. 
+Itu juga digunakan oleh JavaScript untuk mengakses dan memanipulasi elemen dengan id tertentu.-->
+<h2>Selamat Datang</h2>
+
+<h1 id="myHeader">Hello World!</h1>
+<button onclick="displayResult()">Change text</button>
+
+<script>
+function displayResult() {
+  document.getElementById("myHeader").innerHTML = "Have a nice day!";
+}
+</script>
+
+</body>
+</html>
