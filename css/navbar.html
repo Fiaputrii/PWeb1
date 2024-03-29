@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+/* Navigation bar memerlukan HTML standar sebagai dasarnya.
+Navigation bar pada dasarnya adalah daftar tautan, jadi penggunaan elemen <ul> dan <li> sangat masuk akal.
+Navigation bar memiliki 2 jenis yaitu vertikal dan horizontal
+float: left = Gunakan float untuk membuat elemen blok mengapung bersebelahan
+display: block = Memungkinkan kami menentukan padding (dan tinggi, lebar, margin, dll. jika Anda mau)
+padding: 8px = Tentukan beberapa padding di antara setiap elemen <a>, agar terlihat bagus
+background-color: grey = Tambahkan warna latar abu-abu ke setiap elemen <a>*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a href="https://www.w3schools.com/css/css_dropdowns.asp">Home</a></li>
+  <li><a href="https://www.w3schools.com/css/css_dropdowns.asp">News</a></li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Dropdown</a>
+    <div class="dropdown-content">
+      <a href="https://www.w3schools.com/css/css_dropdowns.asp">Link 1</a>
+      <a href="https://www.w3schools.com/css/css_dropdowns.asp">Link 2</a>
+      <a href="https://www.w3schools.com/css/css_dropdowns.asp">Link 3</a>
+    </div>
+  </li>
+</ul>
+
+<h3>NAVBAR DAN DROPDOWN</h3>
+<p>Arahkan Kursor Ke Dropdowns.</p>
+
+</body>
+</html>

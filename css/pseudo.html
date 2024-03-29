@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  /* ini adalah gabungan pseudo class dan elemen 
+  Pseudo class adalah Kelas semu digunakan untuk mendefinisikan keadaan khusus suatu elemen.
+Misalnya, dapat digunakan untuk: Memberi gaya pada elemen saat pengguna mengarahkan mouse ke elemen tersebut.
+Kelas :first-child semu cocok dengan elemen tertentu yang merupakan anak pertama dari elemen lain.
+  Pseudo element adalah Elemen semu CSS digunakan untuk menata bagian tertentu dari suatu elemen.
+Misalnya, dapat digunakan untuk: Memberi gaya pada huruf, atau baris pertama, suatu elemen.
+elemen ::first-letter semu digunakan untuk menambahkan gaya khusus pada huruf pertama teks.*/
+p i:first-child {
+  color: blue;
+}
+p.intro::first-letter {
+  color: #ff0000;
+  font-size: 200%;
+}  
+</style>
+</head>
+<body>
+<h1> Pseudo CSS</h1>
+<p> Ini <i> adalah </i> Pseudo. Ini <i> adalah </i> Pseudo.</p>
+<p class="intro">Hari ini cuaca cerah.</p>
+
+</body>
+</html>
