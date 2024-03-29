@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>Array</h1>
+<p><b>Pembuatan array:</b></p>
+<p id="demo"></p>
+<p><b>Array Sort:</b></p>
+
+<p id="demo1"></p>
+<p id="demo2"></p>
+
+<p><b>Array Pencarian:</b></p>
+<p id="demo3"></p>
+<script>
+
+  // Alasan pembuatan array yaitu untuk menelusuri dan menemukan suatu objek. contoh pembuatan array menggunakan const,
+  //lalu menyediakan elemen [0]
+  //Array sort : Metode ini sort()mengurutkan array berdasarkan abjad:
+  //Array find : Pencarian Array JavaScript()
+  //Metode ini find()mengembalikan nilai elemen array pertama yang melewati fungsi pengujian.
+const cars = [];
+cars[0]= "Saab";
+cars[1]= "Volvo";
+cars[2]= "BMW";
+document.getElementById("demo").innerHTML = cars;
+
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+document.getElementById("demo1").innerHTML = fruits;
+
+fruits.sort();
+document.getElementById("demo2").innerHTML = fruits;
+
+const numbers = [4, 9, 16, 25, 29];
+let first = numbers.find(myFunction);
+
+document.getElementById("demo3").innerHTML = "First number over 18 is " + first;
+
+function myFunction(value, index, array) {
+  return value > 18;
+}
+</script>
+</script>
+
+</body>
+</html>

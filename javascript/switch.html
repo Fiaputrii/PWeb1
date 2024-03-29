@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Pernyataan Switch</h2>
+
+<p id="demo"></p>
+
+<script>
+let text;
+switch (new Date().getDay()) {
+  case 6:
+    text = "Hari ini Sabtu!";
+    break;
+  case 0:
+    text = "Hari ini Minggu!";
+    break;
+  default:
+    text = "Masih menunggu liburan ";
+}
+document.getElementById("demo").innerHTML = text;
+</script>
+
+</body>
+</html>
