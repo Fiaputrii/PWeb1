@@ -110,3 +110,14 @@ Fungsi sering kali menghitung nilai kembalian . Nilai yang dikembalikan "dikemba
 6. Ifelse.html : Pernyataan if else
 Gunakan if jika pernyataan tersebut untuk menentukan blok kode JavaScript yang akan dieksekusi jika kondisinya benar
 Gunakan else jika pernyataan tersebut untuk menentukan blok kode yang akan dieksekusi jika kondisinya salah.
+7. iterables.html : Iterables adalah objek yang dapat diubah (seperti Array).
+Iterables dapat diakses dengan kode sederhana dan efisien. Iterable dapat diulang dengan for..ofloop
+8.loop.html : Loop JavaScript. Perulangan berguna jika Anda ingin menjalankan kode yang sama berulang kali, setiap kali dengan nilai berbeda.
+for itu untuk mengulang blok kode beberapa kali
+Ekspresi 1 dieksekusi (satu kali) sebelum eksekusi blok kode.
+Ekspresi 2 mendefinisikan kondisi untuk mengeksekusi blok kode.
+Ekspresi 3 dieksekusi (setiap saat) setelah blok kode dieksekusi.
+9. maps.html : membuat peta melewati Array ke new Map ,tanda kurung,
+Buat Peta dan gunakan Map.set ,tanda kurung,
+10. objek.html : Objek juga merupakan variabel. Tapi objek bisa mengandung banyak nilai.
+11. operator.html : didalam operator kita bisa menambahkan nilai, jadi kita bisa menambahkan setiap teks menggunakan +, bisa juga memberikan nilai, membagikan nilai dan mengkalikan nilai
