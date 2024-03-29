@@ -1,4 +1,4 @@
-html:
+HTML (Hypertext Markup Language atau HTML adalah bahasa markup standar yang digunakan untuk membuat halaman website dan aplikasi web.)
 1. Attributes.html Atribut src : Tag img digunakan untuk menyematkan gambar di halaman HTML. 
 Atribut src menentukan jalur ke gambar yang akan ditampilkan. Ada juga Atribut Lebar dan Tinggi untuk menentukan ukuran gambar.
 2. Blockinline.html : Elemen sebaris tidak dimulai pada baris baru.
@@ -37,7 +37,7 @@ Menurut dokumentasi HTML W3C: "Section adalah pengelompokan konten secara temati
 Penjelasan mengenai tr, th, td: tr(baris tabel), td(header tabel), td(data tabel).
 Tabel bisa di desain menggunakan border.
 
-CSS  Cascading Style Sheets merupakan bahasa pemrograman yang digunakan untuk menentukan bagaimana dokumen dan website akan disajikan.
+CSS  (Cascading Style Sheets merupakan bahasa pemrograman yang digunakan untuk menentukan bagaimana dokumen dan website akan disajikan).
 1. Basic.html : CSS adalah singkatan dari Cascading Style Sheet
 CSS menjelaskan bagaimana elemen HTML ditampilkan di layar, kertas, atau di media lain
 CSS menghemat banyak pekerjaan. Itu dapat mengontrol tata letak beberapa halaman web sekaligus
@@ -96,7 +96,7 @@ Properti color dapat menambahkan warna pada teks.
   Combinator CSS merupakan sesuatu yang menjelaskan hubungan antar penyeleksi.
 salah satu combinator : The general sibling selector memilih semua elemen yang merupakan saudara berikutnya dari elemen tertentu.
 
-JavaScript 
+JAVASCRIPT (javaScript atau kita singkat menjadi JS merupakan bahasa pemrograman jenis interpreter)
 1. array.html : Alasan pembuatan array yaitu untuk menelusuri dan menemukan suatu objek. contoh pembuatan array menggunakan const, lalu menyediakan elemen 0. Array sort : Metode ini sort()mengurutkan array berdasarkan abjad:
    Array find : Pencarian Array JavaScript(). Metode ini find()mengembalikan nilai elemen array pertama yang melewati fungsi pengujian.
 2. boolean.html : Fungsi Boolean yaitu dapat menggunakan Boolean()fungsi ini untuk mengetahui apakah suatu ekspresi (atau variabel) benar
