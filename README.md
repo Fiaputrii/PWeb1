@@ -115,3 +115,5 @@ Berikut adalah contoh codingan mebuat tabel menggunakan css:
 # Java Script
 JavaScript adalah bahasa pemrograman yang digunakan developer untuk membuat halaman web yang interaktif. 
 Berikut adalah contoh codingan menggunaan Java script:
+
+![alt text](?raw=true)
