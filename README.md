@@ -2,12 +2,12 @@
 - HTML
 - CSS
 - Java Script
-
+- 
 # HTML1
 HTML singkatan dari Hyper Text Markup Language adalah file teks atau file ASCII yang berisi instruksi/script kepada web browser untuk menampilkan suatu tampilan grafis dari sebuah halaman web.
 Berikut adalah contoh codingan membuat list menggunakan html:
 
-![html.jpg](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![html.jpg](./SS/html.jpg)
 
 # HTML 
 HTML singkatan dari Hyper Text Markup Language adalah file teks atau file ASCII yang berisi instruksi/script kepada web browser untuk menampilkan suatu tampilan grafis dari sebuah halaman web.
