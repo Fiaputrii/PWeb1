@@ -7,7 +7,7 @@
 HTML singkatan dari Hyper Text Markup Language adalah file teks atau file ASCII yang berisi instruksi/script kepada web browser untuk menampilkan suatu tampilan grafis dari sebuah halaman web.
 Berikut adalah contoh codingan membuat list menggunakan html:
 
-![html.jpg](./SS/html.jpg)
+![alt text](?raw=true)
 
 <h1>Jenis Kendaraan</h1>
 
