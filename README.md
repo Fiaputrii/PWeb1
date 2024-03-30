@@ -59,3 +59,46 @@ Berikut adalah contoh codingan mebuat tabel menggunakan css:
 }
 </style>
 </head>
+<body>
+
+<h1>LIST IDOL</h1>
+
+<table id="nama">
+  <tr>
+    <th>NAMA</th>
+    <th>GROUP</th>
+  <tr>
+    <td>Jang Wonyoung</td>
+    <td>ive</td>
+  </tr>
+  <tr>
+    <td>Jung Ahyeon</td>
+    <td>Baby Monster</td>
+  </tr>
+  <tr>
+    <td>Seeun</td>
+    <td>StayC</td>
+  </tr>
+  <tr>
+    <td>Kim Chaewon </td>
+    <td>Izone</td>
+  </tr>
+  <tr>
+    <td>Eunha</td>
+    <td> Vivis</td>
+  </tr>
+
+</table>
+
+</body>
+
+-	Elemen Head pada css berfungsi untuk membuat sebuah metadata yang memainkan peran penting dalam pembuatan website
+-	Elemen style pada css berfungsi menambahkan sentuhan estetika pada elemen-elemen di halaman web.
+-	#Nama itu sebagai id agar bisa terpanggil saat di body
+-	Di dalam pembuatan style kita dapat menentukan border ( berfungsi untuk menentukan garis), padding ( jarak konten ke luar), font ( jenis teks), text-align ( penempatan teks ), background-color (warna latar belakan ), color (warna teks )
+-	Tr nth-child (even)  Mewakili baris genap tabel HTML: 2, 4, 6, dst
+-	Tr-hover berfungsi sebagai pengganti warna saat kursor meuju ke arah salah satu tabel
+-	Elemen body dalam css berfungsi untuk  menentukan konten utama dari sebuah halaman web, seperti teks, gambar, audio, video, dan elemen lainnya.
+-	Tag tr (tabel row) untuk membuat baris
+-	Tag td (table data) untuk membuat sel
+-	Tag th (table head) untuk membuat judul pada header
