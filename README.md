@@ -23,6 +23,7 @@ Berikut adalah contoh codingan membuat list menggunakan html:
     <li>Ninja</li>
 </ul>
 </ol>
+
 -	Elemen H1 merupakan heading dengan ukuran 1
 -	Elemen P itu untuk sebuah paragraf
 -	ul mendefinisikan list yang tidak di order
