@@ -106,3 +106,7 @@ Berikut adalah contoh codingan mebuat tabel menggunakan css:
 -	Tag tr (tabel row) untuk membuat baris
 -	Tag td (table data) untuk membuat sel
 -	Tag th (table head) untuk membuat judul pada header
+
+# Java Script
+JavaScript adalah bahasa pemrograman yang digunakan developer untuk membuat halaman web yang interaktif. 
+Berikut adalah contoh codingan menggunaan Java script:
