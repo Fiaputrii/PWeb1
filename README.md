@@ -118,7 +118,15 @@ Berikut adalah contoh codingan menggunaan Java script:
 
 ![alt text](https://github.com/Fiaputrii/PWeb1/blob/main/ss/javascript.jpg?raw=true)
 
-script>
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Pernyataan If Else</h2>
+
+<p id="demo"></p>
+
+<script>
 //Pernyataan if else
 //Gunakan if jika pernyataan tersebut untuk menentukan blok kode JavaScript yang akan dieksekusi jika kondisinya benar
 //Gunakan else jika pernyataan tersebut untuk menentukan blok kode yang akan dieksekusi jika kondisinya salah
@@ -133,6 +141,9 @@ if (time < 10) {
 }
 document.getElementById("demo").innerHTML = greeting;
 </script>
+
+</body>
+</html>
 
 - Gunakan ifuntuk menentukan blok kode yang akan dieksekusi, jika kondisi yang ditentukan benar
 - Gunakan elseuntuk menentukan blok kode yang akan dieksekusi, jika kondisi yang sama salah
