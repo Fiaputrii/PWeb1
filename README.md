@@ -32,6 +32,8 @@ Berikut adalah contoh codingan membuat list menggunakan html:
 # CSS 
 CSS Cascading Style Sheets (CSS) merupakan bahasa pemrograman yang digunakan untuk menentukan bagaimana dokumen dan website akan disajikan.
 Berikut adalah contoh codingan mebuat tabel menggunakan css:
+<!Doctype html>
+<html>
 <head>
 <style>
 #nama
@@ -89,8 +91,8 @@ Berikut adalah contoh codingan mebuat tabel menggunakan css:
   </tr>
 
 </table>
-
 </body>
+</html>
 
 -	Elemen Head pada css berfungsi untuk membuat sebuah metadata yang memainkan peran penting dalam pembuatan website
 -	Elemen style pada css berfungsi menambahkan sentuhan estetika pada elemen-elemen di halaman web.
