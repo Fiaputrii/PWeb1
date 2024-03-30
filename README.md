@@ -118,6 +118,22 @@ Berikut adalah contoh codingan menggunaan Java script:
 
 ![alt text](https://github.com/Fiaputrii/PWeb1/blob/main/ss/javascript.jpg?raw=true)
 
+script>
+//Pernyataan if else
+//Gunakan if jika pernyataan tersebut untuk menentukan blok kode JavaScript yang akan dieksekusi jika kondisinya benar
+//Gunakan else jika pernyataan tersebut untuk menentukan blok kode yang akan dieksekusi jika kondisinya salah
+const time = new Date().getHours();
+let greeting;
+if (time < 10) {
+  greeting = "Good morning";
+} else if (time < 20) {
+  greeting = "Good day";
+} else {
+  greeting = "Good evening";
+}
+document.getElementById("demo").innerHTML = greeting;
+</script>
+
 - Gunakan ifuntuk menentukan blok kode yang akan dieksekusi, jika kondisi yang ditentukan benar
 - Gunakan elseuntuk menentukan blok kode yang akan dieksekusi, jika kondisi yang sama salah
 - Gunakan else ifuntuk menentukan kondisi baru yang akan diuji, jika kondisi pertama salah
