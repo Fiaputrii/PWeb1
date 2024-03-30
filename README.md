@@ -1,9 +1,9 @@
-#Praktikum Pemrograman Web 1
+# Praktikum Pemrograman Web 1
 -CSS
 -HTML 
 -Javascript
 
-#HTML 
+# HTML 
 HTML singkatan dari Hyper Text Markup Language adalah file teks atau file ASCII yang berisi instruksi/script kepada web browser untuk menampilkan suatu tampilan grafis dari sebuah halaman web.
 Berikut adalah contoh codingan membuat list menggunakan html:
 <h1>Jenis Kendaraan</h1>
