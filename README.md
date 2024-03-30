@@ -116,4 +116,8 @@ Berikut adalah contoh codingan mebuat tabel menggunakan css:
 JavaScript adalah bahasa pemrograman yang digunakan developer untuk membuat halaman web yang interaktif. 
 Berikut adalah contoh codingan menggunaan Java script:
 
-![alt text](?raw=true)
+![alt text](https://github.com/Fiaputrii/PWeb1/blob/main/ss/javascript.jpg?raw=true)
+
+- Gunakan ifuntuk menentukan blok kode yang akan dieksekusi, jika kondisi yang ditentukan benar
+- Gunakan elseuntuk menentukan blok kode yang akan dieksekusi, jika kondisi yang sama salah
+- Gunakan else ifuntuk menentukan kondisi baru yang akan diuji, jika kondisi pertama salah
